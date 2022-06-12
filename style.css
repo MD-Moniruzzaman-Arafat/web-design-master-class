@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-body {
+/* body {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -8,4 +8,32 @@ body {
     font-size: 19px;
     line-height: 3;
 
+} */
+
+.container {
+    width: 600px;
+    background-color: lightgray;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.primary-btn {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: cadetblue;
+    color: black;
 }
